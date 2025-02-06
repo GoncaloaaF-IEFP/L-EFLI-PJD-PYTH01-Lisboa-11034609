@@ -81,7 +81,7 @@ int main(int argc, const char * argv[]) {
     do {
         
         printf("%i\n", myVar);
-        myVar -= 5;
+        myVar -= 30;
         
     } while (myVar > 20);
     
@@ -94,6 +94,18 @@ int main(int argc, const char * argv[]) {
         printf("%i\n", i);
 
     }
+    
+    printf("--------input---------\n");
+    // scanf
+    
+    int myData;
+    
+    printf("idade: ");
+    scanf("%d", &myData);
+    
+    printf("a sua idade é %d\n", myData);
+    
+    
     
     
     return 0;
