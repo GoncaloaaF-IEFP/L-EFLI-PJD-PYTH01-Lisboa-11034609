@@ -2,7 +2,6 @@
 #include "op_math.h"
 
 
-
 int main(void) {
     int res = subtracao(3, 5);
     printf("%d\n", res);

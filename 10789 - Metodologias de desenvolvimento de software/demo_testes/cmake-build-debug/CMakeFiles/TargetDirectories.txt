@@ -1,0 +1,3 @@
+/Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes/cmake-build-debug/CMakeFiles/Demo_testes.dir
+/Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

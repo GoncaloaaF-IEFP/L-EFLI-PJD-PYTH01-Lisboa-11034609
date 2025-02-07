@@ -1,0 +1,4 @@
+/Users/goncalof/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/goncalof/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja -S "/Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes" -B "/Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes/cmake-build-debug"
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/goncalof/repos/IEFP/Lisboa/L-EFLI-PJD-PYTH01-Lisboa-11034609/10789 - Metodologias de desenvolvimento de software/Demo_testes/cmake-build-debug

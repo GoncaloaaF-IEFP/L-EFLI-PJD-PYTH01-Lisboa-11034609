@@ -1,0 +1,7 @@
+# ninja log v6
+8	122	1738926405162173314	CMakeFiles/Demo_testes.dir/funcs.c.o	149138beafc6e76f
+6	169	1738926405160257287	CMakeFiles/Demo_testes.dir/main.c.o	a05a742c9a22b2b4
+8	172	1738926405163114922	CMakeFiles/Demo_testes.dir/tests.c.o	dda4e9c03e5a559a
+7	816	1738929531191887669	CMakeFiles/Demo_testes.dir/tests.c.o	dda4e9c03e5a559a
+5	153	1738934755581196769	CMakeFiles/Demo_testes.dir/funcs.c.o	149138beafc6e76f
+6	182	1738934755582489988	CMakeFiles/Demo_testes.dir/tests.c.o	dda4e9c03e5a559a

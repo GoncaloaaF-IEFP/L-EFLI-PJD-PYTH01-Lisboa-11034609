@@ -1,6 +1,5 @@
 # ninja log v6
-3	108	1738842221660315095	CMakeFiles/demoFuncs2.dir/main.c.o	1be0f781e7e3b7d
-19	130	1738842211112385052	CMakeFiles/demoFuncs2.dir/op_math.c.o	24f8ad90752cde24
-109	203	1738842221765786950	demoFuncs2	5c72b340464188dd
-12	134	1738840840262459494	CMakeFiles/demoFuncs2.dir/funcs.c.o	c1433642280ca422
-14	134	1738841513632299230	CMakeFiles/demoFuncs2.dir/op_matematicas.c.o	2432fc09f594b8f9
+4	198	1738849319504583583	CMakeFiles/demoFuncs2.dir/saudacoes.c.o	263911634748c8ab
+2	248	1738849319503067826	CMakeFiles/demoFuncs2.dir/op_math.c.o	24f8ad90752cde24
+2	269	1738849319501890171	CMakeFiles/demoFuncs2.dir/main.c.o	1be0f781e7e3b7d
+270	409	1738849319770390687	demoFuncs2	5d28f4a5ceb720da
