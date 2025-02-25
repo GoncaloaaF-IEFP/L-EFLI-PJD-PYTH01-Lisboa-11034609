@@ -91,3 +91,4 @@ print(int(nome2))
 nome2 = int(input("Digite um num: "))
 #codigo.....
 print(nome2)
+
