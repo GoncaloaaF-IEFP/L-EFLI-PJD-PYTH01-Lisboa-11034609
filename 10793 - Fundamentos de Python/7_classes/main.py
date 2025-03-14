@@ -1,6 +1,6 @@
 from Livro import Livro
 from Carro import Carro
-
+import Bola as b
 
 l1 = Livro("Python Rocks!", "Geek University", 2019)
 
@@ -24,3 +24,9 @@ print(c2.get_estado())
 c2.ligar()
 print(c2.get_estado())
 
+print("--" * 10)
+
+bola1 = b.Bola("Azul", 10, "Plástico")
+print(bola1.mostra_cor())
+bola1.troca_cor("Vermelho")
+print(bola1.msg_com_cor())
