@@ -31,4 +31,14 @@ class Pessoa:
     def add_contato(self, i):
         self.listaCts.append(Contacto(f"telefone {i}", f"email {i}"))
 
+    def __dict__(self):
 
+        lista = []
+
+        for c in self.listaCts:
+            lista.append(c.__dict__)
+
+        return {
+            'nome': self.nome,
+            'listaCts': lista
+        }

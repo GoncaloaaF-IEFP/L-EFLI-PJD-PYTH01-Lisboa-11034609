@@ -6,7 +6,7 @@ p1 = Pessoa("Gonçalo", "1234456", "email@sapo.pt")
 
 p1.add_contato(1)
 
-print(p1.__dict__)
+print(p1.__dict__())
 
 
 
@@ -23,7 +23,7 @@ print(p1.__dict__)
 
 
 {
-    'nome': 'Gonçalo',
+    'nome': 'nome',
      'listaCts': [
         {
         'telefone': '1234456', 
