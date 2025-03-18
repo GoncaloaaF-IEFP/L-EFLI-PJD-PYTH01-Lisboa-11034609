@@ -21,7 +21,7 @@ class Professor(Pessoa):
 
     def __str__(self):
         msg = f"""------------
-{self.nome}\n{self.idade}\n{self.email}\n{self.UFCD}
+"nome placeholder"\n{self.idade}\n{self.email}\n{self.UFCD}
 ------------"""
 
         return msg
