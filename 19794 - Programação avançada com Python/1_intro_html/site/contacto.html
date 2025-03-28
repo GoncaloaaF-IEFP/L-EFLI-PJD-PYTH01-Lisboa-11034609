@@ -1,0 +1,48 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A minha 1ª Página</h1>
+    <a href="index.html">Home</a>| <a href="contacto.html">Contacto</a>
+    <h1>Contacto - get</h1>
+
+<!--
+http://127.0.0.1:5500/site/contacto.html?nome=&email=&mensagem=#    
+http://127.0.0.1:5500/site/contacto.html?nome=eertert&email=tertert%40fsdfdsf&mensagem=fsdfdsfsfsdf#
+-->
+    <form method="get" action="#">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" >
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" >
+        <br>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea 
+        name="mensagem" 
+        id="mensagem" 
+
+        cols="30" 
+        rows="10"
+    
+        ></textarea>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <button type="reset">Limpar</button>
+
+
+
+    </form>
+
+
+
+
+    
+</body>
+</html>
