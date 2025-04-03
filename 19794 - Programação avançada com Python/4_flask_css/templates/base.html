@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Homepage</h1>
+    <nav class="menu">
+
+
+        <a href="https://www.google.com" target="_blank">Google</a>
+        |
+        <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    </nav>
+   {% block content %}
+
+
+
+    {% endblock %}
+
+</body>
+</html>

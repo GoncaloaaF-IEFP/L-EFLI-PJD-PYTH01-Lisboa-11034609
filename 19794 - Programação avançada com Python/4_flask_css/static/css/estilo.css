@@ -1,0 +1,61 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+
+    color:red;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h2{
+    color:blue;
+    font-size: 30px;
+    text-align: right;
+}
+
+p{
+    background-color: yellow;
+
+}
+
+.estilo1{
+    color: #e744e7;
+}
+
+
+#estilo2{
+
+    font-weight: bold;
+
+}
+
+.estilo3{
+
+    background-color: blue;
+
+}
+
+
+
+a{
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+}
+
+
+a:hover{
+    font-size: 50px;
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited{
+    font-size: 20px;
+    color: purple;
+    text-decoration: underline;
+}
