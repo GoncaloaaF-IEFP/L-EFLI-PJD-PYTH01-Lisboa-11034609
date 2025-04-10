@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main/estilos.css' %}">
+    <title>{% block titulo %} {% endblock %}</title>
+</head>
+   <body>
+
+        <header>
+
+            <h1> A minha 2ª pag Django</h1>
+
+            <nav>
+
+            Nav goes here
+
+            </nav>
+        </header>
+
+
+        <div id="content" style="padding-left: 25px;">
+            {% block conteudo %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

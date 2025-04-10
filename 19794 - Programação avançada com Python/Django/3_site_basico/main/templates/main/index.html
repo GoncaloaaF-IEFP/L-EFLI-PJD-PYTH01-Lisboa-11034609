@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+
+{% block titulo %} Home {% endblock %}
+
+
+{% block conteudo %}
+
+    <h2>Home page </h2>
+
+    <p> nome: {{ nome }}</p>
+    <p> email: {{  email }}</p>
+
+
+    <a href="{% url 'main:alunos' %}"> lista Alunos</a>
+{% endblock %}

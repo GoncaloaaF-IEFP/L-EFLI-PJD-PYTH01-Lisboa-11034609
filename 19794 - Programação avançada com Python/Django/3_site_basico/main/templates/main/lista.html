@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+
+
+{% block conteudo %}
+
+<ul>
+    {% for elm in lista_alunos %}
+        
+        <li> 
+             <a
+                     href="{% url 'main:aluno' elm.id %}"
+             
+             > {{ elm.id }}: {{ elm }}  </a>   
+            
+        
+        </li>
+    
+    {% endfor %}
+    
+        
+</ul>
+
+
+
+{% endblock %}
