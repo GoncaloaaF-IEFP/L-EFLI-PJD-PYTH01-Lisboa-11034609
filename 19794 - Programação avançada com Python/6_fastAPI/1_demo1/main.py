@@ -14,8 +14,6 @@ delete - delete
 
 """
 
-# REST
-
 @app.get("/") # /
 async def root():
     return {"message": "Hello World"}
@@ -30,7 +28,7 @@ async def alunos():
             "Aluno3",
             "Aluno4",
         ]
-    }
+        }
 
 @app.get("/aluno/{id}") # /alunos/1 <- qd o id for obrigatorio
 async def aluno(id: int):
@@ -65,3 +63,69 @@ async def add_alunos(aluno: Aluno):
 @app.post("/alunos/{id}/nota")
 async def add_alunos(id:int, nota: float):
     return {"message": f"add nota {nota} ao aluno {id}"}
+
+
+
+"""
+
+
+{} <- obj
+[] <- array
+"nome" = "valor" <- key value   
+
+"alunos": [
+    {
+        "nome": "Aluno1",
+        "idade": 18,
+        "endereco": "rua x"
+        "inscrito": false
+    }
+]
+
+
+
+alunos = list[Aluno]
+
+class Aluno:
+    nome: str
+    idade: int
+    endereco: str
+    inscrito: bool
+
+
+
+
+
+
+
+{
+  "nome": "string",
+  "email": "string",
+  "notas": [
+    {
+      "nota": 0,
+      "ufcd": {
+        "nome": "string",
+        "cod": 0
+      }
+    },
+    {
+      "nota": 0,
+      "ufcd": {
+        "nome": "string",
+        "cod": 0
+      }
+    },
+    {
+      "nota": 0,
+      "ufcd": {
+        "nome": "string",
+        "cod": 0
+      }
+    }
+  ]
+}
+
+
+
+"""
