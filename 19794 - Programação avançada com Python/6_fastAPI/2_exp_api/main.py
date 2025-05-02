@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from typing import Optional
+from Aluno import *
 
 app = FastAPI()
 
@@ -63,11 +64,10 @@ Criar notas em um aluno
 
 Criar nota de alunos - permite adicionar um nota em mais de um aluno ao mesmo tempo, 
 recebe 
-    um arry "obj, json"  com o id do aluno e a nota, exp [{id: 1, nota: 10}, {id: 2, nota: 15}]
+    um arry "obj, json"  com o id do aluno e a nota, exp [{id: 1, ufcd: 312, nota: 10}, {id: 2, ufcd: 312, nota: 15}]
 
 
 Criar notas em um alunos
-
 
 
 """
@@ -152,3 +152,11 @@ async def aluno(id: int):
 @app.get("/notas")
 async def get_nota(ufcd: Optional[int] = None, id: Optional[int] = None ,aluno: Optional[int]= None):
     return {"message": f"Hello {id}"}
+
+"""
+add notas em um aluno
+
+"""
+@app.post("/notas")
+async def add_nota(nota: Nota):
+    return {"message": f"Hello {nota}"}
