@@ -1,0 +1,22 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+POST localhost:8000/alunos
+Accept: application/json
+Content-Type: application/json
+
+{
+  "nome": "string",
+  "idade": 0,
+  "email": "string"
+}
+
